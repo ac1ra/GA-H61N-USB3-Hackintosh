@@ -77,7 +77,9 @@ Be aware that hibernation (suspend to disk or S4 sleep) is not well supported on
 You should disable it:
 Code:
 > sudo pmset -a hibernatemode 0
+
 > sudo rm /var/vm/sleepimage
+
 > sudo mkdir /var/vm/sleepimage
 
 Always check your hibernatemode after updates and disable it. System updates tend to re-enable it, although the trick above (making sleepimage a directory) tends to help.
@@ -104,8 +106,11 @@ MacOS Catalina (10.15.x) is working well on Gigabyte GA-H61N-USB3. Moving from m
 
 4. Open /Applications/Utilities/Terminal:
 > sudo -s
+
 > mount -uw /
+
 > touch /Library/Extensions /System/Library/Extensions
+
 > kextcache -i /
 
 5. Reboot
