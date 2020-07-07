@@ -13,7 +13,7 @@ My computer Gigagyte GA-H61N-USB3 with MacOS 10.15.5. All devices work very well
 
 #### Creating USB
 
-**I recommend to create on the USB-flash with USB3.0, because the install will very long.** Creating USB and installing using Clover UEFI works on the NUC7i3BNH. Make USB flash with GPT parition for Clover EFI.
+**I recommend to create on the USB-flash with USB3.0, because the install will very long.** Creating USB and installing using Clover EFI works. Make USB flash with GPT parition for Clover EFI.
 
 Terminal:
 
@@ -42,7 +42,7 @@ Remove CLOVER from /EFI folder. Download CLOVER from here and copy to /EFI.
 
 Put USB flash with Clover Bootloader and reboot. Turn F12 to get boot menu and choice **USB-HDD**.
 
-EFI Clover boot should start from USB-flash. Install MacOS Mojave/Catalina.
+EFI Clover boot should start from USB-flash. Install MacOS Catalina.
 
 #### Post Installation
 
@@ -52,16 +52,17 @@ After installation mount local EFI disk. Terminal:
 
 Download **MultiBeast - Catalina** installer on tonymacx86: https://www.tonymacx86.com/resources/multibeast-12-3-0-catalina.491/
 
+Run:
 - QuickStart - Legacy Boot Mode
 - Drivers - RealtekRTL8111 v2.2.2
 - Customize: 
- 1. Graphic Configuration - Core Graphics Fixup AKA WhateverGreen,
- 2. System Definitions - iMac 13,2
+  1. Graphic Configuration - Core Graphics Fixup AKA WhateverGreen,
+  2. System Definitions - iMac 13.2
 - Build -> Install
 
 Replace config.plist from here/EFI/CLOVER to EFI partition (/EFI/CLOVER).
 
-Reboot system. MacOS Catalina ready.
+Reboot system. MacOS Catalina is ready.
 
 #### Adding: Problem with hibernation ####
 
@@ -78,7 +79,7 @@ Code:
 
 Always check your hibernatemode after updates and disable it. System updates tend to re-enable it, although the trick above (making sleepimage a directory) tends to help.
 
-#### UPD 23.03.2020: ####
+#### Important UPD 23.03.2020: ####
 MacOS Catalina (10.15.x) is working well on Gigabyte GA-H61N-USB3. Moving from macOS Mojave to macOS Catalina with an existing MultiBeast 11 for macOS Mojave installation. The following directions allow a user to manually remove kexts from /Library/Extensions and recache system on macOS Catalina.
 
 1. Navigate to /Library/Extensions
@@ -103,4 +104,6 @@ MacOS Catalina (10.15.x) is working well on Gigabyte GA-H61N-USB3. Moving from m
 6.  > mount -uw /
 7. > touch /Library/Extensions /System/Library/Extensions
 8. > kextcache -i /
-9. Reboot​
+9. Reboot
+
+**Enjoy it!**
