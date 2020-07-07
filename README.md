@@ -2,7 +2,7 @@
 [GUIDE] Installing macOS Catalina (10.15.x) on GA-H61N-USB3
 
 ### Overview
-My computer Gigagyte GA-H61N-USB3 with MacOS 10.15.5. All devices work very well.
+My computer on the base Intel Core i5-3570K with motherboard Gigagyte GA-H61N-USB3. MacOS 10.15.5. All devices work very well.
 
 #### Specs
 - **CPU:** Intel Core i5 3570K, 3.4 ГГц (4-core)
