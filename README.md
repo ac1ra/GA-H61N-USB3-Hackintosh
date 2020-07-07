@@ -11,6 +11,9 @@ My computer Gigagyte GA-H61N-USB3 with MacOS 10.15.5. All devices work very well
 - **GPU:** Intel HD Graphics HD4000
 - **Ports:** HDMI/DVI/USB-2.0/USB 3.0/LAN/3'5 Jack
 
+#### Performance
+![specs](/img/all.png)
+
 #### Creating USB
 
 **I recommend to create on the USB-flash with USB3.0, because the install will very long.** Creating USB and installing using Clover EFI works. Make USB flash with GPT parition for Clover EFI.
