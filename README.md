@@ -103,7 +103,6 @@ MacOS Catalina (10.15.x) is working well on Gigabyte GA-H61N-USB3. Moving from m
 - SoftRAID.kext
 
 4. Open /Applications/Utilities/Terminal:
-
 > sudo -s
 > mount -uw /
 > touch /Library/Extensions /System/Library/Extensions
