@@ -60,7 +60,7 @@ Run:
 - Drivers - RealtekRTL8111 v2.2.2
 - Customize: 
   1. Graphic Configuration - Core Graphics Fixup AKA WhateverGreen,
-  2. System Definitions - iMac 13.2
+  2. System Definitions - iMac 13.3
 - Build -> Install
 
 Replace config.plist from here/EFI/CLOVER to EFI partition (/EFI/CLOVER).
