@@ -1,5 +1,5 @@
 # Gigagyte GA-H61N-USB3 Hackintosh
-[GUIDE] Installing macOS Mojave (10.14.x) on GA-H61N-USB3
+[GUIDE] Installing macOS Catalina (10.15.x) on GA-H61N-USB3
 
 ### Overview
 My computer Gigagyte GA-H61N-USB3 with MacOS 10.15.5. All devices work very well.
@@ -27,12 +27,12 @@ Terminal:
 
 1. Download **UniBeast - Catalina** installer on tonymacx86: https://www.tonymacx86.com/resources/unibeast-10-3-0-catalina.490/
 2. Download MacOS Catalina from AppStore.
-2. Follow clear USB-flash
-3. Run UniBeast:
+3. Follow clear USB-flash
+4. Run UniBeast:
  - check USB-flash in Destination Select. It will automatically select.
  - check "Legacy Boot Mode" in the Bootloader Configuration.
  - create USB-bootloader
-4. Terminal:
+5. Terminal:
 
 > sudo diskutil mount disk1s1
 
