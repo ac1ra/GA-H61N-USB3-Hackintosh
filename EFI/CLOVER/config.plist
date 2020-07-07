@@ -109,7 +109,7 @@
 			<key>AFGLowPowerState</key>
 			<false/>
 			<key>Inject</key>
-			<integer>3</integer>
+			<string>Detect</string>
 		</dict>
 		<key>FakeID</key>
 		<dict>
@@ -128,10 +128,12 @@
 			<false/>
 		</dict>
 		<key>UseIntelHDMI</key>
-		<true/>
+		<false/>
 	</dict>
 	<key>GUI</key>
 	<dict>
+		<key>EmbeddedThemeType</key>
+		<string>Dark</string>
 		<key>Mouse</key>
 		<dict>
 			<key>DoubleClick</key>
@@ -153,9 +155,9 @@
 			<true/>
 		</dict>
 		<key>ScreenResolution</key>
-		<string>1280x1024</string>
+		<string>1680x1050</string>
 		<key>Theme</key>
-		<string>tonymacx86</string>
+		<string>random</string>
 		<key>Volumes</key>
 		<dict>
 			<key>Legacy</key>
