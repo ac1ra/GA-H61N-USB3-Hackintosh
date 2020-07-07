@@ -102,11 +102,11 @@ MacOS Catalina (10.15.x) is working well on Gigabyte GA-H61N-USB3. Moving from m
 - PromiseSTEX.kext
 - SoftRAID.kext
 
-4. Open /Applications/Utilities/Terminal
-5.  > sudo -s
-6.  > mount -uw /
-7. > touch /Library/Extensions /System/Library/Extensions
-8. > kextcache -i /
-9. Reboot
+4. Open /Applications/Utilities/Terminal:
+ > sudo -s
+ > mount -uw /
+ > touch /Library/Extensions /System/Library/Extensions
+ > kextcache -i /
+5. Reboot
 
 **Enjoy it!**
