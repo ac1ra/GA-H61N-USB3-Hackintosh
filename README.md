@@ -6,7 +6,7 @@ My computer on the base Intel Core i5-3570K with motherboard Gigagyte GA-H61N-US
 
 #### Specs
 - **CPU:** Intel Core i5 3570K, 3.4 ГГц (4-core)
-- **RAM:** 2x4 Gb DDR4 Samsung 1333 Mhz
+- **RAM:** 2x4 Gb DDR3 Samsung 1333 Mhz
 - **SSD:** 240 Gb SSD, Noname from China
 - **GPU:** Intel HD Graphics HD4000
 - **Ports:** HDMI/DVI/USB-2.0/USB 3.0/LAN/3'5 Jack
