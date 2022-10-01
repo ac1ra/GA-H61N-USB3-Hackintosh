@@ -1,5 +1,5 @@
 # Gigagyte GA-H61N-USB3 Hackintosh
-[GUIDE] Installing macOS Catalina (10.15.x) on GA-H61N-USB3
+[GUIDE] Installing macOS Catalina (10.15.x)/macOS Monterey (12.x) on GA-H61N-USB3
 
 **UPD 21.10.2020:** System updated to MacOS Catalina 10.15.7. Work perfect.
 
@@ -7,14 +7,14 @@
 
 
 ### Overview
-My computer on the base Intel Core i5-3570K with motherboard Gigagyte GA-H61N-USB3. MacOS 10.15.5. All devices work very well.
+My computer on the base Intel Core i7-3770K with motherboard Gigagyte GA-H61N-USB3. MacOS 12.x. All devices work very well, but computer is bittly slowing down. MacOS BigSur is last best work with only iGPU.
 
 #### Specs
 - **CPU:** Intel Core i7 3770K, 3.7 ГГц (4-core)
 - **RAM:** 2x8 Gb DDR3 Atermiter 1600 Mhz (China Edition)
 - **SSD:** 240 Gb SSD, Goldenifir (China Edition)
 - **GPU:** 8Gb Sapphire Pulse AMD Radeon RX6600
-- **GPU(no used):** Intel HD Graphics HD4000
+- **iGPU(BigSur):** Intel HD Graphics HD4000
 - **Ports:** HDMI/DVI/USB-2.0/USB 3.0/LAN/3'5 Jack
 
 #### Performance
