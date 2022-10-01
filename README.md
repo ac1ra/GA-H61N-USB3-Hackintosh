@@ -3,6 +3,9 @@
 
 **UPD 21.10.2020:** System updated to MacOS Catalina 10.15.7. Work perfect.
 
+**UPD 1.10.2022:** System updated to MacOS Monterey 12.x with OpenCore
+
+
 ### Overview
 My computer on the base Intel Core i5-3570K with motherboard Gigagyte GA-H61N-USB3. MacOS 10.15.5. All devices work very well.
 
