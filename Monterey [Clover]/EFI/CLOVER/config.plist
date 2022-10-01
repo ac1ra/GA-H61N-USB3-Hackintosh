@@ -357,13 +357,13 @@
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
-		<string>MP61.88Z.F000.B00.2203161444</string>
+		<string>xxxx</string>
 		<key>Board-ID</key>
-		<string>Mac-F60DEB81FF30ACF6</string>
+		<string>xxxx</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>F5K3465014NFHDDA8</string>
+		<string>xxxx</string>
 		<key>BoardType</key>
 		<integer>11</integer>
 		<key>BoardVersion</key>
@@ -377,13 +377,13 @@
 		<key>EfiVersion</key>
 		<string>430.120.6.0.0</string>
 		<key>ExtendedFirmwareFeatures</key>
-		<string>0x00000008E90FF576</string>
+		<string>xxxx</string>
 		<key>ExtendedFirmwareFeaturesMask</key>
-		<string>0x00000008FF1FFF7F</string>
+		<string>xxxx</string>
 		<key>Family</key>
 		<string>MacPro</string>
 		<key>FirmwareFeatures</key>
-		<string>0xE90FF576</string>
+		<string>xxxx</string>
 		<key>FirmwareFeaturesMask</key>
 		<string>0xFF1FFF7F</string>
 		<key>LocationInChassis</key>
